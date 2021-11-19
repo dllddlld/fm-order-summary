@@ -30,7 +30,7 @@ body {
     overflow: hidden;
 }
 
-.container {
+main {
     flex: 1;
     display: flex;
     align-items: center;
@@ -38,9 +38,12 @@ body {
     width: 85%;
 }
 
-.attribution {
+footer {
     position: fixed;
     bottom: 0;
+}
+
+.attribution {
     font-size: 11px;
     text-align: center;
     padding: 0.5em;
